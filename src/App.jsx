@@ -330,13 +330,16 @@ export default function App() {
           required 
         />
       </div>
-
       <button 
         type="submit"
         className="w-full mt-2 bg-orange-400 hover:bg-orange-500 text-white font-semibold py-2.5 rounded-xl text-sm transition-all duration-150 transform hover:-translate-y-0.5 active:translate-y-0.5 shadow-[2px_2px_0px_0px_#000] hover:shadow-[4px_4px_0px_0px_#000] cursor-pointer"
       >
         Login
       </button>
+      <div className='flex flex-col justify-center items-center text-xs gap-2 text-gray-500'>
+        <p>Username - user</p>
+        <p>Password-123456</p>
+      </div>
     </form>
 
   </div>
